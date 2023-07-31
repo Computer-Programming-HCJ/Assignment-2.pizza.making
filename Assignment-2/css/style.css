@@ -1,0 +1,293 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* style the heading */
+header {
+  background-color: #fbfbfb;
+  height: 96px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* set the size of logo */
+header>img {
+  width: auto;
+  height: 100%;
+}
+
+/* style a navigation bar using flex-box */
+header>nav {
+  display: flex;
+  margin-left: 72%;
+  gap: 24%;
+}
+
+/* set the fonts of navigation menu */
+header>nav>a {
+  color: rgb(218, 19, 19);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+.header>h1>span{
+  color:black;
+}
+
+/* set the fonts style of heading */
+.header > h1{
+  font-family: 'Rye', cursive;
+}
+
+/* change the color when user hovered on that link */
+header>nav>a:hover {
+  color: #000000;
+}
+
+/* set the background image of home page */
+.pizza-container {
+  background-image: url('../image/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 87vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+/* center the content and also give color property */
+.pizza-content {
+  text-align: center; 
+  color: #111010;
+}
+
+/* style the heading tag */
+h1 {
+  font-size: 2rem;
+  display: contents;
+  margin-bottom: 20px;
+  color: rgb(224, 16, 16);
+  position: absolute;
+  bottom: 580px;
+  left: 130px;
+}
+
+h5 {
+  font-size: 3em;
+}
+
+.welcome {
+  color: white;
+  font-size: 5em;
+}
+
+/* set the paragraph and also used google fonts */
+p {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #f00707;
+  font-family: 'Pacifico', cursive;
+}
+
+/* style the button */
+.btn {
+  background-color: #f00707;
+  color: #000000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn:hover {
+  background-color: #aa5b52;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* style the heading of order page */
+header {
+  background-color: white;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+}
+
+header h5 {
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Rye', cursive;
+}
+
+/* set the nav tag same as index.html tag */
+.navigation {
+  display: flex;
+  margin-left: 79%;
+  gap: 24%;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 20px;
+}
+
+/* set the size of form */
+.pizza-making,
+.payment-details {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #000000;
+}
+
+/* set the background color and shadow the text */
+.pizza-making,
+.payment-options {
+  background-color: #D3D3D3;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.option {
+  margin-bottom: 25px;
+}
+
+/* style the label */
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* give width,size,padding and border to input and select properties */
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+/* styling the button using different properties */
+button {
+  background-color: #000000;
+  color: white;
+  border:3px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  height: 10%;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: #8c8c8c;
+}
+
+/* style the toppings box selected by user */
+#show-toppings {
+  border: 2px solid #1b1919;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: #000000;
+  background-color: white;
+}
+
+/* style the total amount of bill price*/
+#total-price {
+  font-weight: bold;
+  color: #e73c3c;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  border: 2px solid black;
+}
+
+/* style the pizza-making class */
+.pizza-making {
+  background-color: #D3D3D3;
+  text-align: center;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.pizza-making h2 {
+  color: #000000;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* grid used to divide boxes into two columns */
+.pizza-making > .container > .pizza-details{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+/* set options background color and give a box curve shape */
+.option {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+/* set the color of options label */
+.pizza-options label {
+  color: #000000;
+}
+
